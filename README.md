@@ -1,2 +1,7 @@
-# CSE-122-FALL2023
-This is an OOP Lab Repository
+Name: Md Jubayer Islam
+
+ID: 22235103071
+
+Intake: 51
+
+Section: 02

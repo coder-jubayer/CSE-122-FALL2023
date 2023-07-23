@@ -1,7 +1,7 @@
-Name: Md Jubayer Islam
+Name    : Md Jubayer Islam
 
-ID: 22235103071
+ID      : 22235103071
 
-Intake: 51
+Intake  : 51
 
-Section: 02
+Section : 02

@@ -2,8 +2,20 @@
 using namespace std;
  
 int main(){
-    int w = 0; cin >> w;
-    string output = (w <= 2 || w % 2) ? "NO" : "YES";
-    cout << output << endl;
+    int a; 
+    cin >> a;
+    
+    if(a>=1 && a<=100){
+        
+   if(a%2==1){
+       cout << "NO" << endl; }
+       
+   else{
+       if(a==2){
+       cout << "NO" << endl;}
+       else{
+        cout << "YES"<< endl; }
+   }
+    }
     return 0;
 }

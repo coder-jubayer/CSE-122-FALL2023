@@ -7,7 +7,8 @@ int main()
     int n;
     string s;
     cin >> n;
-    while (n--)
+    if(n>=1 && n<=100){
+    for(int i=0;i<n;i++)
     {
         cin >> s;
         if (s.length() > 10)
@@ -18,6 +19,6 @@ int main()
         {
             cout << s << endl;
         }
-    }
+    }}
     return 0;
 }

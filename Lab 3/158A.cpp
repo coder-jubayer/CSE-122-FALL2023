@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int n,k,i,countt=0;
+    int n,k,i,count=0;
     cin>>n>>k;
     int ar[n];
     for(i=0;i<n;i++)
@@ -12,8 +12,8 @@ int main()
     for(i=0;i<n;i++)
     {
         if(ar[i]>=ar[k-1] && ar[i]>0)
-            countt++;
+            count++;
     }
-    cout<<countt<<endl;
+    cout<<count<<endl;
     return 0;
 }

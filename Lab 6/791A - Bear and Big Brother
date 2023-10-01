@@ -1,0 +1,19 @@
+
+#include <iostream>
+#include<string.h>
+using namespace std;
+int main()
+{
+  int a,b;
+  cin>>a;
+  cin>>b;
+  int count=0;
+  do{count++;
+    a*=3;
+    b*=2;
+  }while(a<=b);
+
+  
+    cout<<count;
+    return 0;
+}

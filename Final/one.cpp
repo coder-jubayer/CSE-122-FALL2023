@@ -8,42 +8,46 @@ class publication{
     public:
     string title;
     float price;
-    virtual void getData()=0;
-    virtual void putData()=0;
+     void getData(){
+        
+    };
+     void putData(){
+        
+    };
 
 };
 class book: public publication{
     public:
     int page;
     void getData(){
-        cout<<"title"<<endl;
+        cout<<"Enter title: "<<endl;
         cin>>title;
-        cout<<"price"<<endl;
+        cout<<"Enter price: "<<endl;
         cin>>price;
-        cout<<"page"<<endl;
+        cout<<"Enter page: "<<endl;
         cin>>page;
     }
     void putData(){
-        cout<<title<<endl;
-        cout<<price<<endl;
-        cout<<page<<endl;
+        cout<<endl<<"Title: "<<title<<endl;
+        cout<<"Price: "<<price<<endl;
+        cout<<"Page: "<<page<<endl<<endl;
     }
 };
 class tape: public publication{
     public:
     float time;
     void getData(){
-        cout<<"title"<<endl;
+        cout<<"Enter title: "<<endl;
         cin>>title;
-        cout<<"price"<<endl;
+        cout<<"Enter price: "<<endl;
         cin>>price;
-        cout<<"time"<<endl;
+        cout<<"Enter time: "<<endl;
         cin>>time;
     }
      void putData(){
-        cout<<title<<endl;
-        cout<<price<<endl;
-        cout<<time<<endl;
+        cout<<endl<<"Title: "<<title<<endl;
+        cout<<"Price: "<<price<<endl;
+        cout<<"Time: "<<time<<endl;
     }
 };
 int main(){
